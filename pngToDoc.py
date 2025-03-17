@@ -29,7 +29,7 @@ def png_to_word(folder_path, output_docx):
     print(f"Word document saved as {output_docx}")
 
 # Corrected file paths with raw string notation
-folder_path = r"C:\Users\faree\Documents\NINETY7HYPERVPROJ\EntraID"
-output_docx = r"C:\Users\faree\Documents\NINETY7HYPERVPROJ\EntraID\EntraID-PROJECT.docx"
+folder_path = r"folder_path"
+output_docx = r"output_folder_path\output.doc"
 
 png_to_word(folder_path, output_docx)
